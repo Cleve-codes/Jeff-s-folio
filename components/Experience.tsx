@@ -70,23 +70,7 @@ const textAfterReadMore = `
             </button>
             </div>
           </Link>
-          <Link
-            href="/resume.pdf"
-            download="Jeffers CV.pdf"
-            className="z-[1]"
-            target="_blank"
-          >
-            <div className="flex-row flex mb-5">
-              <button
-              className=" z-[1] padding-20  hover:bg-white rounded-3xl
-              text-white font-semibold hover:text-black py-3 px-10  border-[0.1px]
-              border-white hover:border-transparent hover:cursor-pointer
-              "
-              >
-              Download CV
-            </button>
-            </div>
-          </Link>
+
          </div>
 
         <div className="flex-col flex sm:flex-row mt-[2em]">

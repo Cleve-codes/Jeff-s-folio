@@ -103,6 +103,7 @@ export default function Page(){
                 "
                 >
                 Download CV
+                <MdOutlineFileDownload className="w-7 h-7 inline-block ml-1" />
               </button>
               </div>
             </Link>
