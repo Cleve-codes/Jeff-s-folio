@@ -88,13 +88,25 @@ export default function Page(){
         </p>
         </>
       </div>
-
-          <a href="/resume.pdf" download="resume.pdf">
-            <button className="bg-white text-black px-8 py-4 rounded-xl mt-[3em] hover:bg-transparent">
+      <div className="mt-[2em]">
+        <Link
+              href="/resume.pdf"
+              download="Jeffer's CV.pdf"
+              className="z-[1] "
+              target="_blank"
+              >
+              <div className="flex-row flex mb-5">
+                <button
+                className=" z-[1] padding-20  hover:bg-white rounded-3xl
+                text-white font-semibold hover:text-black py-3 px-10  border-[0.1px]
+                border-white hover:border-transparent hover:cursor-pointer
+                "
+                >
                 Download CV
-                <MdOutlineFileDownload className="inline ml-3 w-7 h-7" />
-            </button>
-            </a>
+              </button>
+              </div>
+            </Link>
+        </div>
       <Footer />
     </div>
 
