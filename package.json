@@ -12,6 +12,8 @@
     "next": "14.0.4",
     "react": "^18",
     "react-dom": "^18",
+    "react-icons": "^5.0.0",
+    "react-router-dom": "6.8",
     "sharp": "^0.33.0"
   },
   "devDependencies": {
